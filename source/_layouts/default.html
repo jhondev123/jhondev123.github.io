@@ -65,7 +65,6 @@
                         <li class="nav-item"><a class="nav-link" href="{{ site.url }}/blog/categories">Categorias</a>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="{{ site.url }}/portfolio">Portfólio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ site.url }}/about">Sobre mim</a></li>
                     </ul>
                 </div>
             </div>
@@ -77,7 +76,7 @@
                 {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
             </div>
             <div class="col-sm-4 sidebar">
-                <div class="card bg-light">
+                <div class="card bg-light mb-2">
                     <div class="card-header">{{ site.title }}</div>
                     <div class="card-body">
                         {% if site.subtitle %}<small>{{ site.subtitle }}</small>{% endif %}
